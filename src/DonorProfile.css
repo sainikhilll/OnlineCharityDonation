@@ -1,0 +1,105 @@
+.dpmaindiv {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.dpsubdiv {
+  display: grid;
+  padding: 1vw;
+  gap: 1vw;
+  min-width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.dpheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* height: calc(10px + 2vw); */
+  /* background-color: rgb(152, 222, 217, 0.1); */
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.dpdonorname {
+  font-size: calc(7px + 1vw);
+  color: #04009a;
+}
+.dpheadersmall {
+  display: flex;
+  align-items: center;
+}
+.dpheadersmall:hover {
+  cursor: pointer;
+}
+.dpheadersmall img {
+  height: calc(10px + 1vw);
+}
+.dpback {
+  height: 50%;
+}
+.dpbody {
+  display: grid;
+  width: 100%;
+  gap: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.dpdonorinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dpdetailhead {
+  background-color: rgb(152, 222, 217, 0.1);
+  color: rgb(152, 222, 217);
+  padding-top: 0.25vw;
+  padding-bottom: 0.25vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: calc(7px + 0.5vw);
+}
+.dpprofileelement {
+  display: flex;
+  align-items: center;
+}
+.dpprofilelabel {
+  width: 30%;
+  font-size: calc(7px + 0.5vw);
+  color: rgb(152, 222, 217);
+}
+.dpprofilevalue {
+  width: 70%;
+  color: rgb(22, 29, 111);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.5vw;
+  font-size: calc(7px + 0.5vw);
+}
+.dplogout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+}
+.dplogout button {
+  height: calc(5px + 2vw);
+  padding-left: 1vw;
+  padding-right: 1vw;
+  outline: none;
+  border: none;
+  background-color: rgb(4, 0, 154);
+  color: rgb(152, 222, 217);
+  font-size: calc(5px + 0.75vw);
+  font-weight: bold;
+}
+.dplogout button:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
